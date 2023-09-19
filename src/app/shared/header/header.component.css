@@ -5,6 +5,7 @@ header {
   height: 10vh;
   justify-content: space-between;
 }
+
 .logos {
   display: flex;
   width: 40%;
@@ -20,11 +21,18 @@ header {
   border-left: 0.2rem solid var(--amarillo-principal);
   height: 80%;
 }
-.navbar-icon {
+
+.div-navbar {
+  width: 20%;
+
   display: flex;
   align-items: center;
+  justify-content: center;
 }
-.navbar-icon > svg {
+.div-navbar > svg {
   fill: var(--amarillo-principal);
   height: 50%;
+}
+app-nav-bar {
+  display: none;
 }

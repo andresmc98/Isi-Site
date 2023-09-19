@@ -1,0 +1,29 @@
+div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: var(--azul-principal);
+
+  height: 100vh;
+  width: 60%;
+
+  color: white;
+}
+h2 {
+  margin: 3vh 5vw;
+}
+ul {
+  margin: 3vh 5vw;
+}
+li {
+  margin-bottom: 3vh;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: black;
+  color: white;
+}
