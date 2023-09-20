@@ -1,1 +1,10 @@
-<p>home works!</p>
+<div class="home">
+  <section class="carousel-wrapper">
+    <div class="carousel-card" *ngFor="let item of articles">
+      <img src="{{ item.img }}" alt="" />
+      <div class="carousel-text">
+        <h2>{{ item.title }}</h2>
+      </div>
+    </div>
+  </section>
+</div>

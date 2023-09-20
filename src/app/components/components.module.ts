@@ -8,8 +8,6 @@ import { IntershipsJobsComponent } from './info-relevante/interships-jobs/inters
 import { InfoUniComponent } from './info-relevante/info-uni/info-uni.component';
 import { InfoIsiComponent } from './info-relevante/info-isi/info-isi.component';
 
-
-
 @NgModule({
   declarations: [
     MapaCurricularInteractivoComponent,
@@ -18,10 +16,9 @@ import { InfoIsiComponent } from './info-relevante/info-isi/info-isi.component';
     DoYDontComponent,
     IntershipsJobsComponent,
     InfoUniComponent,
-    InfoIsiComponent
+    InfoIsiComponent,
   ],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
+  exports: [HomeComponent],
 })
-export class ComponentsModule { }
+export class ComponentsModule {}
